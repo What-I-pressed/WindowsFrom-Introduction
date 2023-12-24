@@ -28,125 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            txtServerHost = new TextBox();
-            btnSave = new Button();
-            btnCancel = new Button();
-            label2 = new Label();
-            txtUserName = new TextBox();
-            txtUserPasssword = new TextBox();
-            label3 = new Label();
-            btnCheckConnection = new Button();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtServerHost = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtUserPasssword = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnCheckConnection = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.Blue;
-            label1.Location = new Point(22, 18);
-            label1.Name = "label1";
-            label1.Size = new Size(82, 28);
-            label1.TabIndex = 0;
-            label1.Text = "Сервер";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(22, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Сервер";
             // 
             // txtServerHost
             // 
-            txtServerHost.Location = new Point(22, 45);
-            txtServerHost.Name = "txtServerHost";
-            txtServerHost.Size = new Size(285, 34);
-            txtServerHost.TabIndex = 1;
+            this.txtServerHost.Location = new System.Drawing.Point(22, 45);
+            this.txtServerHost.Name = "txtServerHost";
+            this.txtServerHost.Size = new System.Drawing.Size(285, 29);
+            this.txtServerHost.TabIndex = 1;
             // 
             // btnSave
             // 
-            btnSave.ForeColor = Color.Blue;
-            btnSave.Location = new Point(343, 21);
-            btnSave.Name = "btnSave";
-            btnSave.Size = new Size(113, 39);
-            btnSave.TabIndex = 2;
-            btnSave.Text = "Зберегти";
-            btnSave.UseVisualStyleBackColor = true;
-            btnSave.Click += btnSave_Click;
+            this.btnSave.ForeColor = System.Drawing.Color.Blue;
+            this.btnSave.Location = new System.Drawing.Point(343, 21);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(113, 39);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "Зберегти";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // btnCancel
             // 
-            btnCancel.ForeColor = Color.Red;
-            btnCancel.Location = new Point(343, 66);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(113, 39);
-            btnCancel.TabIndex = 3;
-            btnCancel.Text = "Скасувати";
-            btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += btnCancel_Click;
+            this.btnCancel.ForeColor = System.Drawing.Color.Red;
+            this.btnCancel.Location = new System.Drawing.Point(343, 66);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(113, 39);
+            this.btnCancel.TabIndex = 3;
+            this.btnCancel.Text = "Скасувати";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.Blue;
-            label2.Location = new Point(22, 80);
-            label2.Name = "label2";
-            label2.Size = new Size(127, 28);
-            label2.TabIndex = 0;
-            label2.Text = "Користувач";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(22, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Користувач";
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(22, 107);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(285, 34);
-            txtUserName.TabIndex = 1;
+            this.txtUserName.Location = new System.Drawing.Point(22, 107);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(285, 29);
+            this.txtUserName.TabIndex = 1;
             // 
             // txtUserPasssword
             // 
-            txtUserPasssword.Location = new Point(22, 173);
-            txtUserPasssword.Name = "txtUserPasssword";
-            txtUserPasssword.Size = new Size(285, 34);
-            txtUserPasssword.TabIndex = 5;
+            this.txtUserPasssword.Location = new System.Drawing.Point(22, 173);
+            this.txtUserPasssword.Name = "txtUserPasssword";
+            this.txtUserPasssword.Size = new System.Drawing.Size(285, 29);
+            this.txtUserPasssword.TabIndex = 5;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.Blue;
-            label3.Location = new Point(22, 146);
-            label3.Name = "label3";
-            label3.Size = new Size(85, 28);
-            label3.TabIndex = 4;
-            label3.Text = "Пароль";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(22, 146);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 21);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Пароль";
             // 
             // btnCheckConnection
             // 
-            btnCheckConnection.ForeColor = Color.Blue;
-            btnCheckConnection.Location = new Point(22, 226);
-            btnCheckConnection.Name = "btnCheckConnection";
-            btnCheckConnection.Size = new Size(190, 39);
-            btnCheckConnection.TabIndex = 2;
-            btnCheckConnection.Text = "Перевірити з'єднання";
-            btnCheckConnection.UseVisualStyleBackColor = true;
-            btnCheckConnection.Click += btnCheckConnection_Click;
+            this.btnCheckConnection.ForeColor = System.Drawing.Color.Blue;
+            this.btnCheckConnection.Location = new System.Drawing.Point(22, 226);
+            this.btnCheckConnection.Name = "btnCheckConnection";
+            this.btnCheckConnection.Size = new System.Drawing.Size(190, 39);
+            this.btnCheckConnection.TabIndex = 2;
+            this.btnCheckConnection.Text = "Перевірити з\'єднання";
+            this.btnCheckConnection.UseVisualStyleBackColor = true;
             // 
             // ConnectionForm
             // 
-            AutoScaleDimensions = new SizeF(11F, 28F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(468, 282);
-            Controls.Add(txtUserPasssword);
-            Controls.Add(label3);
-            Controls.Add(btnCancel);
-            Controls.Add(btnCheckConnection);
-            Controls.Add(btnSave);
-            Controls.Add(txtUserName);
-            Controls.Add(label2);
-            Controls.Add(txtServerHost);
-            Controls.Add(label1);
-            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Margin = new Padding(4);
-            Name = "ConnectionForm";
-            StartPosition = FormStartPosition.CenterParent;
-            Text = "Підключення до сервера";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(468, 282);
+            this.Controls.Add(this.txtUserPasssword);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnCheckConnection);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtServerHost);
+            this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "ConnectionForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Підключення до сервера";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

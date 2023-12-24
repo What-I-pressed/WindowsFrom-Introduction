@@ -25,5 +25,10 @@ namespace _13.SimleForm
             ConnectionForm connectionForm = new ConnectionForm();
             connectionForm.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
